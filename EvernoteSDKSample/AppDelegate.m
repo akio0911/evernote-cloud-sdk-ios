@@ -17,9 +17,10 @@
 #warning Add Consumer Key and Consumer Secret, but also modify your app's Info.plist according to documentation!
 #warning Remove these warnings once done with it.
 
+    // FIXME: delete
     // Set shared session key information.
-    [ENSession setSharedSessionConsumerKey:@"your key"
-                            consumerSecret:@"your secret"
+    [ENSession setSharedSessionConsumerKey:@"akio0911-7671"
+                            consumerSecret:@"6237988142e42cb7"
                               optionalHost:ENSessionHostSandbox];
     
     // Override point for customization after application launch.

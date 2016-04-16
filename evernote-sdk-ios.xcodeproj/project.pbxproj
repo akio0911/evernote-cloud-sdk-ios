@@ -334,6 +334,31 @@
 		BECDD3AC19090FBA003736EE /* SaveActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECDD3AB19090FBA003736EE /* SaveActivityViewController.m */; };
 		BECDD3C8190A2DE7003736EE /* ENSDKResourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = BECDD3C6190A2DE7003736EE /* ENSDKResourceLoader.h */; };
 		BECDD3C9190A2DE7003736EE /* ENSDKResourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = BECDD3C7190A2DE7003736EE /* ENSDKResourceLoader.m */; };
+		E5ABF53E1CA97BD300F4BEC4 /* NotebooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86254FCD1A1AA0D5005A3425 /* NotebooksViewController.m */; };
+		E5ABF5401CA97BD300F4BEC4 /* NoteListResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4695CB192ECE4D00ADE15F /* NoteListResultViewController.m */; };
+		E5ABF5411CA97BD300F4BEC4 /* SaveActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECDD3AB19090FBA003736EE /* SaveActivityViewController.m */; };
+		E5ABF5421CA97BD300F4BEC4 /* NoteDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE4695CE192ED90E00ADE15F /* NoteDetailViewController.m */; };
+		E5ABF5431CA97BD300F4BEC4 /* UserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECDD3A8190908A9003736EE /* UserInfoViewController.m */; };
+		E5ABF5441CA97BD300F4BEC4 /* ResourcesListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86361A9F1A5762CC0042FB95 /* ResourcesListTableViewController.m */; };
+		E5ABF5461CA97BD300F4BEC4 /* TagsInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D792B319E862DF008664DF /* TagsInfoViewController.m */; };
+		E5ABF5481CA97BD300F4BEC4 /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8628FA571A1A94DA00AEF402 /* CommonUtils.m */; };
+		E5ABF5491CA97BD300F4BEC4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BE48C71719131AC200025618 /* SVProgressHUD.m */; };
+		E5ABF54B1CA97BD300F4BEC4 /* libevernote-sdk-ios.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB3D1AD1524ED96001C4534 /* libevernote-sdk-ios.a */; };
+		E5ABF54C1CA97BD300F4BEC4 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BE476B1781FAFA00471BF7 /* libxml2.dylib */; };
+		E5ABF54D1CA97BD300F4BEC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2E24E818EDD4A300BD7E6E /* CoreGraphics.framework */; };
+		E5ABF54E1CA97BD300F4BEC4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2E25B018EDE1C100BD7E6E /* MobileCoreServices.framework */; };
+		E5ABF54F1CA97BD300F4BEC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB3D24D1524EEF3001C4534 /* UIKit.framework */; };
+		E5ABF5501CA97BD300F4BEC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB3D1B01524ED96001C4534 /* Foundation.framework */; };
+		E5ABF5521CA97BD300F4BEC4 /* angle-mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BEA8992E1913215C001619FE /* angle-mask@2x.png */; };
+		E5ABF5531CA97BD300F4BEC4 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE48C71519131AC200025618 /* LICENSE.txt */; };
+		E5ABF5541CA97BD300F4BEC4 /* ENSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 86F2D7FC1909EDAA00C0AA7F /* ENSDKResources.bundle */; };
+		E5ABF5551CA97BD300F4BEC4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 862CEA301A77273C00D0DB23 /* Localizable.strings */; };
+		E5ABF5561CA97BD300F4BEC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8603EFF51A731A680002AE28 /* Images.xcassets */; };
+		E5ABF5571CA97BD300F4BEC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BECDD3771908FFC1003736EE /* InfoPlist.strings */; };
+		E5ABF5581CA97BD300F4BEC4 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8600EC161A15D97400F8F838 /* Launch Screen.xib */; };
+		E5ABF5601CAA807600F4BEC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ABF55F1CAA807600F4BEC4 /* AppDelegate.swift */; };
+		E5ABF5631CAA83C400F4BEC4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECDD3871908FFC2003736EE /* MainViewController.m */; };
+		E5ABF5651CAA938D00F4BEC4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ABF5641CAA938D00F4BEC4 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -572,6 +597,11 @@
 		BECDD3AB19090FBA003736EE /* SaveActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveActivityViewController.m; sourceTree = "<group>"; };
 		BECDD3C6190A2DE7003736EE /* ENSDKResourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ENSDKResourceLoader.h; sourceTree = "<group>"; };
 		BECDD3C7190A2DE7003736EE /* ENSDKResourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ENSDKResourceLoader.m; sourceTree = "<group>"; };
+		E5ABF55C1CA97BD300F4BEC4 /* EvernoteSDKSampleSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EvernoteSDKSampleSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5ABF55D1CA97BD300F4BEC4 /* EvernoteSDKSample copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EvernoteSDKSample copy-Info.plist"; path = "/Users/akio0911/git-work/evernote-cloud-sdk-ios/EvernoteSDKSample copy-Info.plist"; sourceTree = "<absolute>"; };
+		E5ABF55E1CAA807500F4BEC4 /* EvernoteSDKSampleSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EvernoteSDKSampleSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		E5ABF55F1CAA807600F4BEC4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E5ABF5641CAA938D00F4BEC4 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -603,6 +633,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E5ABF54A1CA97BD300F4BEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5ABF54B1CA97BD300F4BEC4 /* libevernote-sdk-ios.a in Frameworks */,
+				E5ABF54C1CA97BD300F4BEC4 /* libxml2.dylib in Frameworks */,
+				E5ABF54D1CA97BD300F4BEC4 /* CoreGraphics.framework in Frameworks */,
+				E5ABF54E1CA97BD300F4BEC4 /* MobileCoreServices.framework in Frameworks */,
+				E5ABF54F1CA97BD300F4BEC4 /* UIKit.framework in Frameworks */,
+				E5ABF5501CA97BD300F4BEC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -614,6 +657,7 @@
 				BECDD3741908FFC1003736EE /* EvernoteSDKSample */,
 				0BB3D1AF1524ED96001C4534 /* Frameworks */,
 				0BB3D1AE1524ED96001C4534 /* Products */,
+				E5ABF55D1CA97BD300F4BEC4 /* EvernoteSDKSample copy-Info.plist */,
 			);
 			indentWidth = 4;
 			sourceTree = "<group>";
@@ -626,6 +670,7 @@
 				0BB3D1AD1524ED96001C4534 /* libevernote-sdk-ios.a */,
 				865C383118F8BA2400ECB2BA /* ENSDK.framework */,
 				BECDD3701908FFC1003736EE /* EvernoteSDKSample.app */,
+				E5ABF55C1CA97BD300F4BEC4 /* EvernoteSDKSampleSwift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1006,8 +1051,10 @@
 				BE48C71319131AC200025618 /* 3rdparty */,
 				BECDD37D1908FFC1003736EE /* AppDelegate.h */,
 				BECDD37E1908FFC1003736EE /* AppDelegate.m */,
+				E5ABF55F1CAA807600F4BEC4 /* AppDelegate.swift */,
 				BECDD3861908FFC1003736EE /* MainViewController.h */,
 				BECDD3871908FFC2003736EE /* MainViewController.m */,
+				E5ABF5641CAA938D00F4BEC4 /* MainViewController.swift */,
 				BECDD3AA19090FBA003736EE /* SaveActivityViewController.h */,
 				BECDD3AB19090FBA003736EE /* SaveActivityViewController.m */,
 				BECDD3751908FFC1003736EE /* Supporting Files */,
@@ -1027,6 +1074,7 @@
 				86361A9E1A5762CC0042FB95 /* ResourcesListTableViewController.h */,
 				86361A9F1A5762CC0042FB95 /* ResourcesListTableViewController.m */,
 				862CEA301A77273C00D0DB23 /* Localizable.strings */,
+				E5ABF55E1CAA807500F4BEC4 /* EvernoteSDKSampleSwift-Bridging-Header.h */,
 			);
 			path = EvernoteSDKSample;
 			sourceTree = "<group>";
@@ -1255,12 +1303,30 @@
 			productReference = BECDD3701908FFC1003736EE /* EvernoteSDKSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E5ABF53C1CA97BD300F4BEC4 /* EvernoteSDKSampleSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5ABF5591CA97BD300F4BEC4 /* Build configuration list for PBXNativeTarget "EvernoteSDKSampleSwift" */;
+			buildPhases = (
+				E5ABF53D1CA97BD300F4BEC4 /* Sources */,
+				E5ABF54A1CA97BD300F4BEC4 /* Frameworks */,
+				E5ABF5511CA97BD300F4BEC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EvernoteSDKSampleSwift;
+			productName = EvernoteSDKSample;
+			productReference = E5ABF55C1CA97BD300F4BEC4 /* EvernoteSDKSampleSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		0BB3D1A41524ED96001C4534 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Evernote Corporation";
 			};
@@ -1284,6 +1350,7 @@
 				0BB3D1AC1524ED96001C4534 /* evernote-sdk-ios */,
 				865C383018F8BA2400ECB2BA /* ENSDK */,
 				BECDD36F1908FFC1003736EE /* EvernoteSDKSample */,
+				E5ABF53C1CA97BD300F4BEC4 /* EvernoteSDKSampleSwift */,
 			);
 		};
 /* End PBXProject section */
@@ -1309,6 +1376,20 @@
 				8603EFF61A731A680002AE28 /* Images.xcassets in Resources */,
 				BECDD3791908FFC1003736EE /* InfoPlist.strings in Resources */,
 				8600EC171A15D97400F8F838 /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5ABF5511CA97BD300F4BEC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5ABF5521CA97BD300F4BEC4 /* angle-mask@2x.png in Resources */,
+				E5ABF5531CA97BD300F4BEC4 /* LICENSE.txt in Resources */,
+				E5ABF5541CA97BD300F4BEC4 /* ENSDKResources.bundle in Resources */,
+				E5ABF5551CA97BD300F4BEC4 /* Localizable.strings in Resources */,
+				E5ABF5561CA97BD300F4BEC4 /* Images.xcassets in Resources */,
+				E5ABF5571CA97BD300F4BEC4 /* InfoPlist.strings in Resources */,
+				E5ABF5581CA97BD300F4BEC4 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1522,6 +1603,25 @@
 				BECDD37B1908FFC1003736EE /* main.m in Sources */,
 				8628FA581A1A94DA00AEF402 /* CommonUtils.m in Sources */,
 				BE48C71919131AC200025618 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5ABF53D1CA97BD300F4BEC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5ABF5601CAA807600F4BEC4 /* AppDelegate.swift in Sources */,
+				E5ABF53E1CA97BD300F4BEC4 /* NotebooksViewController.m in Sources */,
+				E5ABF5401CA97BD300F4BEC4 /* NoteListResultViewController.m in Sources */,
+				E5ABF5651CAA938D00F4BEC4 /* MainViewController.swift in Sources */,
+				E5ABF5411CA97BD300F4BEC4 /* SaveActivityViewController.m in Sources */,
+				E5ABF5421CA97BD300F4BEC4 /* NoteDetailViewController.m in Sources */,
+				E5ABF5431CA97BD300F4BEC4 /* UserInfoViewController.m in Sources */,
+				E5ABF5441CA97BD300F4BEC4 /* ResourcesListTableViewController.m in Sources */,
+				E5ABF5631CAA83C400F4BEC4 /* MainViewController.m in Sources */,
+				E5ABF5461CA97BD300F4BEC4 /* TagsInfoViewController.m in Sources */,
+				E5ABF5481CA97BD300F4BEC4 /* CommonUtils.m in Sources */,
+				E5ABF5491CA97BD300F4BEC4 /* SVProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1836,6 +1936,70 @@
 			};
 			name = Release;
 		};
+		E5ABF55A1CA97BD300F4BEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EvernoteSDKSample/EvernoteSDKSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "EvernoteSDKSample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EvernoteSDKSample/EvernoteSDKSampleSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E5ABF55B1CA97BD300F4BEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EvernoteSDKSample/EvernoteSDKSample-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "EvernoteSDKSample copy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "EvernoteSDKSample/EvernoteSDKSampleSwift-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1871,6 +2035,15 @@
 			buildConfigurations = (
 				BECDD39D1908FFC2003736EE /* Debug */,
 				BECDD39E1908FFC2003736EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5ABF5591CA97BD300F4BEC4 /* Build configuration list for PBXNativeTarget "EvernoteSDKSampleSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5ABF55A1CA97BD300F4BEC4 /* Debug */,
+				E5ABF55B1CA97BD300F4BEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
